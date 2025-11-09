@@ -1,0 +1,8 @@
+"Metric","Value"
+"Training AUC","0.977"
+"Testing AUC","0.96"
+"CV Mean AUC","0.966"
+"CV SD","0.017"
+"Threshold","0.0792"
+"Sensitivity","0.90"
+"Specificity","0.95"

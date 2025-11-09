@@ -1,0 +1,102 @@
+================================================================================
+SPECIES DISTRIBUTION MODELING PROJECT SUMMARY
+Himalayan Ibex (Capra sibirica)
+================================================================================
+
+PROJECT INFORMATION
+-------------------
+Author: Syed Inzimam Ali Shah
+GitHub: https://github.com/Syedinzimam
+Duration: 15 days (2025-10-30 to 2025-11-08)
+Species: Capra sibirica (Himalayan Ibex)
+Study Area: Southeast Asia (60°E-105°E, 25°N-45°N)
+
+DATA SUMMARY
+------------
+Occurrence Records: 50 points (GBIF)
+Date Range: 1883-2025
+Background Points: 9,994 points
+Environmental Variables: 8 bioclimatic variables (WorldClim)
+  - bio1: Annual Mean Temperature
+  - bio2: Mean Diurnal Range
+  - bio3: Isothermality
+  - bio4: Temperature Seasonality
+  - bio12: Annual Precipitation
+  - bio15: Precipitation Seasonality
+  - bio18: Precipitation of Warmest Quarter
+  - bio19: Precipitation of Coldest Quarter
+
+MODEL PERFORMANCE
+-----------------
+Algorithm: MaxEnt (Maximum Entropy)
+Training AUC: 0.977
+Testing AUC: 0.96
+Cross-Validation AUC: 0.966 ± 0.017
+Performance Rating: EXCELLENT (AUC > 0.9)
+
+VARIABLE IMPORTANCE
+-------------------
+Top 3 Contributing Variables:
+1. bio1: 41.1%
+2. bio2: 29.1%
+3. bio3: 9.9%
+
+HABITAT ANALYSIS
+----------------
+Total Suitable Habitat: 1,607,905 km²
+Percentage of Study Area: 17.7%
+Mean Prediction at Presence: 0.796
+
+TOP COUNTRIES WITH SUITABLE HABITAT
+-----------------------------------
+1. China: 813,554.6 km²
+2. Mongolia: 164,673.4 km²
+3. Kyrgyzstan: 151,181.3 km²
+4. Afghanistan: 118,257.1 km²
+5. Kazakhstan: 115,558.7 km²
+
+ECOLOGICAL INSIGHTS
+-------------------
+- Species prefers cold, high-altitude environments (optimal ~0°C)
+- Strongly associated with mountain ranges (Himalayas, Karakoram, Pamir, Tian Shan)
+- Temperature is the most important predictor (46% contribution)
+- Habitat forms corridors along major mountain systems
+- Potentially vulnerable to climate change due to temperature dependency
+
+CONSERVATION IMPLICATIONS
+-------------------------
+- Priority areas: China (813,555 km²), Mongolia (164,673 km²), Kyrgyzstan (151,181 km²)
+- Habitat connectivity important across international borders
+- Climate change monitoring recommended
+- Focus on high-altitude protected areas
+
+FILES GENERATED
+---------------
+Data Files:
+  - Occurrence data (cleaned)
+  - Environmental layers (selected)
+  - Background points
+  - Final model data
+
+Model Outputs:
+  - MaxEnt model object (.rds)
+  - Habitat suitability raster (.tif)
+  - Binary habitat map (.tif)
+  - Model evaluation metrics
+  - Cross-validation results
+
+Visualizations:
+  - Occurrence maps
+  - Correlation matrices
+  - Response curves
+  - ROC curves
+  - Habitat suitability maps
+  - Variable importance plots
+  - Publication-quality figures
+
+================================================================================
+Project completed successfully!
+For more information, contact: Syed Inzimam Ali Shah
+GitHub: https://github.com/Syedinzimam
+================================================================================
+

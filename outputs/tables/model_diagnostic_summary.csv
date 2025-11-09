@@ -1,0 +1,7 @@
+"Metric","Value"
+"Training AUC","0.977"
+"Testing AUC","0.96"
+"CV AUC Mean","0.966"
+"CV AUC SD","0.017"
+"Top Variable","bio1"
+"Mean Presence Prediction","0.796"

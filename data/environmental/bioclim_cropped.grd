@@ -1,0 +1,21 @@
+[general]
+[data]
+datatype=FLT4S
+nodatavalue=nan
+byteorder=little
+nbands=19
+bandorder=BIL
+minvalue=-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:0:0:0:-3.6893488147419103e+19:0:0:0:0
+maxvalue=3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:8626:2588:48:3.6893488147419103e+19:5678:193:5608:427
+categorical=FALSE
+[description]
+layername=wc2.1_2.5m_bio_1:wc2.1_2.5m_bio_2:wc2.1_2.5m_bio_3:wc2.1_2.5m_bio_4:wc2.1_2.5m_bio_5:wc2.1_2.5m_bio_6:wc2.1_2.5m_bio_7:wc2.1_2.5m_bio_8:wc2.1_2.5m_bio_9:wc2.1_2.5m_bio_10:wc2.1_2.5m_bio_11:wc2.1_2.5m_bio_12:wc2.1_2.5m_bio_13:wc2.1_2.5m_bio_14:wc2.1_2.5m_bio_15:wc2.1_2.5m_bio_16:wc2.1_2.5m_bio_17:wc2.1_2.5m_bio_18:wc2.1_2.5m_bio_19
+[georeference]
+nrows=480
+ncols=1080
+xmin=60
+ymin=25
+xmax=105
+ymax=45
+projection=+proj=longlat +datum=WGS84 +no_defs
+wkt=GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]

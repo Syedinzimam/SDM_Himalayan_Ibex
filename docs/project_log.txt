@@ -1,0 +1,9 @@
+=== SDM PROJECT LOG ===
+Project: Himalayan Ibex Distribution Modeling
+Species: Capra sibirica
+Region: Southeast Asia
+Start Date: 2025-11-08 
+Duration: 15 days
+Author: Syed Inzimam Ali Shah
+GitHub: Syedinzimam
+
