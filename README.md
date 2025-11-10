@@ -145,21 +145,24 @@ source("scripts/day1_setup.R")
 source("scripts/day2_packages.R")
 source("scripts/day3_gbif.R")
 # ... continue through day10_final.R
+ 
+ 
  Key Visualizations
-1. Occurrence Data Distribution
-Show Image
+### 1. Occurrence Data Distribution
+![Occurrence Map](./outputs/maps/occurrence_map_raw.png)
 
-2. Habitat Suitability Model
-Show Image
+### 2. Habitat Suitability Model
+![Habitat Suitability](./outputs/maps/Figure3_Final_Habitat_Map.png)
 
-3. Variable Importance
-Show Image
+### 3. Variable Importance
+![Variable Importance](./outputs/maps/variable_importance.png)
 
-4. Response Curves
-Show Image
+### 4. Response Curves
+![Response Curves](./outputs/maps/response_curves_detailed.png)
 
-5. Model Performance (ROC)
-Show Image
+### 5. Model Performance (ROC)
+![ROC Curves](./outputs/maps/roc_curves.png)
+
 
  Key Findings
 Ecological Insights
