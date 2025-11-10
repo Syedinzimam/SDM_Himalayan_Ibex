@@ -3,42 +3,46 @@ Show Image
 Show Image
 Show Image
 
- Project Overview
+## Project Overview
 This project implements a comprehensive Species Distribution Model (SDM) for the Himalayan Ibex (Capra sibirica) across Southeast Asia using MaxEnt (Maximum Entropy) modeling. The analysis identifies suitable habitats, evaluates environmental drivers, and provides conservation insights for this mountain-dwelling species.
 
-Author: Syed Inzimam Ali Shah
-Education: BS Zoology (Virtual University of Pakistan) and B.Sc. Forestry (Pakistan Forest Institute)
-GitHub: @Syedinzimam
-Duration: 15 days
+**Author:** Syed Inzimam Ali Shah
+**Education:** BS Zoology (Virtual University of Pakistan) and B.Sc. Forestry (Pakistan Forest Institute)
+**GitHub:** @Syedinzimam
+**Duration:** 15 days
 
- Objectives
-Model the current distribution of Himalayan Ibex across Southeast Asia
-Identify key environmental variables driving species distribution
-Quantify suitable habitat area by country
-Evaluate model performance using multiple validation techniques
-Generate conservation-relevant insights
- Study Area
-Geographic Extent: 60°E - 105°E, 25°N - 45°N
-Countries Covered: Pakistan, Afghanistan, India, China, Nepal, Bhutan, Tajikistan, Kyrgyzstan, Kazakhstan, Mongolia, Uzbekistan
+## Objectives
+- Model the current distribution of Himalayan Ibex across Southeast Asia
+- Identify key environmental variables driving species distribution
+- Quantify suitable habitat area by country
+- Evaluate model performance using multiple validation techniques
+- Generate conservation-relevant insights
 
-Key Mountain Ranges:
+## Study Area
+**Geographic Extent:** 60°E - 105°E, 25°N - 45°N
+**Countries Covered:** Pakistan, Afghanistan, India, China, Nepal, Bhutan, Tajikistan, Kyrgyzstan, Kazakhstan, Mongolia, Uzbekistan
 
-Himalayas
-Karakoram
-Hindu Kush
-Pamir Mountains
-Tian Shan
- Data Sources
-Occurrence Data
-Source: Global Biodiversity Information Facility (GBIF)
-Records: 230 occurrence points (1883-2025)
-Final Dataset: 50 points after cleaning and environmental filtering
-Access: GBIF Capra sibirica
-Environmental Data
-Source: WorldClim v2.1 (Bioclimatic variables)
-Resolution: 2.5 arc-minutes (~5 km)
-Variables Selected: 8 bioclimatic variables (from 19 total)
-Variable	Description	Contribution
+## Key Mountain Ranges:
+- Himalayas
+- Karakoram
+- Hindu Kush
+- Pamir Mountains
+- Tian Shan
+
+## Data Sources:
+
+# Occurrence Data
+**Source:** Global Biodiversity Information Facility (GBIF)
+**Records:** 230 occurrence points (1883-2025)
+**Final Dataset:** 50 points after cleaning and environmental filtering
+**Access:** GBIF Capra sibirica
+
+# Environmental Data
+**Source:** WorldClim v2.1 (Bioclimatic variables)
+**Resolution:** 2.5 arc-minutes (~5 km)
+**Variables Selected:** 8 bioclimatic variables (from 19 total)
+
+## Variable	Description	Contribution
 bio1	Annual Mean Temperature	46.0%
 bio2	Mean Diurnal Range	28.0%
 bio3	Isothermality	10.0%
@@ -47,29 +51,39 @@ bio12	Annual Precipitation	4.5%
 bio15	Precipitation Seasonality	1.5%
 bio18	Precip. Warmest Quarter	0.7%
 bio19	Precip. Coldest Quarter	0.3%
- Methodology
-1. Data Acquisition & Preparation
+ 
+## Methodology
+
+# 1. Data Acquisition & Preparation
 Downloaded occurrence data from GBIF API
-Cleaned data: removed duplicates, NA coordinates, high uncertainty records
+
+**Cleaned data:** 
+Removed duplicates, NA coordinates, high uncertainty records
 Generated 9,994 background points with 10km buffer from occurrences
-2. Variable Selection
+
+# 2. Variable Selection
 Calculated Pearson correlation matrix for 19 bioclimatic variables
 Removed highly correlated variables (|r| > 0.7)
 Selected 8 ecologically relevant, uncorrelated variables
-3. MaxEnt Modeling
+
+# 3. MaxEnt Modeling
 Algorithm: Maximum Entropy (MaxEnt)
-Training/Testing Split: 80/20
-Background Points: 9,994 random points
-Settings: Default MaxEnt parameters with response curves and jackknife
-4. Model Validation
+**Training/Testing Split:** 80/20
+**Background Points:** 9,994 random points
+**Settings:** Default MaxEnt parameters with response curves and jackknife
+
+# 4. Model Validation
 Area Under Curve (AUC) for training and testing datasets
 5-fold spatial cross-validation
 Evaluation at presence locations
-5. Habitat Analysis
+
+# 5. Habitat Analysis
 Binary classification using spec_sens threshold
 Area calculations by country
 Suitability class categorization (Low, Moderate, High, Very High)
- Results
+ 
+## Results
+
 Model Performance
 Metric	Value
 Training AUC	0.977
@@ -77,6 +91,7 @@ Testing AUC	0.960
 Cross-Validation AUC	0.966 ± 0.010
 Performance Rating	EXCELLENT
 Habitat Suitability
+
 Total Suitable Habitat: 1,607,905 km²
 Study Area Coverage: 17.7%
 Mean Prediction at Presence: 0.796
