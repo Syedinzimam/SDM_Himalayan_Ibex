@@ -9,7 +9,7 @@ This project implements a comprehensive Species Distribution Model (SDM) for the
 **Author:** Syed Inzimam Ali Shah
 **Education:** BS Zoology (Virtual University of Pakistan) and B.Sc. Forestry (Pakistan Forest Institute)
 **GitHub:** @Syedinzimam
-**Duration:** 15 days
+**Duration:** 15 days ---
 
 ## Objectives
 - Model the current distribution of Himalayan Ibex across Southeast Asia
