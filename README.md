@@ -537,34 +537,6 @@ list.files("outputs/tables")           # View data tables
 
 ---
 
-##  Publications & Presentations
-
-### Suitable For:
-
- **Academic Applications:**
-- M.S. Wildlife Conservation program applications
-- Research assistant position portfolios
-- Graduate research proposals
-- Scholarship applications (Fulbright, Chevening, etc.)
-
- **Professional Portfolio:**
-- Conservation biology positions
-- Wildlife management agencies
-- Environmental consulting firms
-- GIS and spatial analysis roles
-
- **Educational Use:**
-- Species distribution modeling workshops
-- R programming tutorials
-- Conservation biology course projects
-- Ecological modeling demonstrations
-
- **Conference Presentations:**
-- Wildlife conservation symposia
-- Ecological modeling conferences
-- Student research showcases
-- Conservation planning workshops
-
 ### Suggested Citation
 
 ```
@@ -612,27 +584,15 @@ This project was made possible through:
 
 ---
 
-##  Contact & Collaboration
+## Contact
 
-**Syed Inzimam Ali Shah**
+For questions, feedback, or academic discussion related to this project:
 
-I'm actively seeking opportunities for:
-- M.S. programs in Wildlife Conservation / Ecology
-- Research assistant positions in conservation biology
-- Collaborative research projects
-- Conservation NGO opportunities
-
-**Get in Touch:**
--  **Email:** inzimamsyed12@gmail.com
+**Syed Inzimam Ali Shah**  
+- **Email:** [inzimamsyed12gmail.com]
 -  **LinkedIn:** [linkedin.com/in/syed-inzimam](https://www.linkedin.com/in/syed-inzimam)
 -  **GitHub:** [@Syedinzimam](https://github.com/Syedinzimam)
--  **Portfolio:** [github.com/Syedinzimam](https://github.com/Syedinzimam?tab=repositories)
-
-**Open to:**
-- Research collaborations
-- Conservation project consultations
-- Workshop presentations
-- Data analysis partnerships
+-  **Portfolio:** [github.com/Syedinzimam](https://github.com/Syedinzimam?tab=repositories
 
 ---
 
