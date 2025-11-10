@@ -28,12 +28,13 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 ## Author
 
 **Syed Inzimam Ali Shah**  
-B.S. Zoology, Virtual University of Pakistan  
-B.Sc. Forestry, Pakistan Forest Institute  
+**B.S. Zoology**, Virtual University of Pakistan  
+**B.Sc. Forestry**, Pakistan Forest Institute  
 
-Email: [inzimamsyed12@gmail.com](mailto:inzimamsyed12@gmail.com) 
-LinkedIn: [linkedin.com/in/syed-inzimam](https://www.linkedin.com/in/syed-inzimam) 
-GitHub: [@Syedinzimam](https://github.com/Syedinzimam)  
+- **Email:** [inzimamsyed12@gmail.com](mailto:inzimamsyed12@gmail.com)  
+- **LinkedIn:** https://www.linkedin.com/in/syed-inzimam  
+- **GitHub:** https://github.com/Syedinzimam
+
 
 
 ---
