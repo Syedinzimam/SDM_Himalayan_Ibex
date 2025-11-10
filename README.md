@@ -17,15 +17,15 @@
 This project implements a comprehensive **Species Distribution Model (SDM)** for the Himalayan Ibex (*Capra sibirica*) across Southeast Asia using **MaxEnt (Maximum Entropy)** modeling. The analysis identifies suitable habitats, evaluates environmental drivers, and provides conservation insights for this high-altitude mountain-dwelling species.
 
 **Key Highlights:**
-- 🎯 Excellent model performance (AUC = 0.96)
-- 🗺️ 1.6 million km² suitable habitat identified
-- 🌡️ Temperature identified as primary driver (46% contribution)
-- 🔬 Rigorous validation using 5-fold cross-validation
-- 📊 Publication-quality visualizations and analysis
+-  Excellent model performance (AUC = 0.96)
+-  1.6 million km² suitable habitat identified
+-  Temperature identified as primary driver (46% contribution)
+-  Rigorous validation using 5-fold cross-validation
+-  Publication-quality visualizations and analysis
 
 ---
 
-## 👤 Author Information
+##  Author Information
 
 **Syed Inzimam Ali Shah**
 
@@ -34,17 +34,15 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 - B.Sc. Forestry - Pakistan Forest Institute
 
 **Contact:**
-- 📧 Email: inzimamsyed12@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/syed-inzimam](https://www.linkedin.com/in/syed-inzimam)
-- 🐙 GitHub: [@Syedinzimam](https://github.com/Syedinzimam)
+-  Email: inzimamsyed12@gmail.com
+-  LinkedIn: [linkedin.com/in/syed-inzimam](https://www.linkedin.com/in/syed-inzimam)
+-  GitHub: [@Syedinzimam](https://github.com/Syedinzimam)
 
 **Project Duration:** 15 days (Completed November 2025)
 
-**Technical Assistance:** Claude AI (Anthropic) - Script development and methodology guidance
-
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 1. Model the current distribution of Himalayan Ibex across Southeast Asia
 2. Identify key environmental variables driving species distribution
@@ -54,7 +52,7 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 
 ---
 
-## 🗺️ Study Area
+##  Study Area
 
 **Geographic Extent:** 60°E - 105°E, 25°N - 45°N
 
@@ -76,7 +74,7 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 
 ---
 
-## 📊 Data Sources
+##  Data Sources
 
 ### Occurrence Data
 - **Source:** Global Biodiversity Information Facility ([GBIF](https://www.gbif.org/species/2441363))
@@ -109,7 +107,7 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Data Acquisition & Preparation
 - Downloaded occurrence data using GBIF API (`rgbif` package)
@@ -152,7 +150,7 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 
 ---
 
-## 📈 Results
+##  Results
 
 ### Model Performance
 
@@ -185,7 +183,7 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 <p align="center"><i>Relative importance of environmental predictors</i></p>
 
 **Key Findings:**
-- 🌡️ **Temperature variables dominate** (73% combined contribution)
+- **Temperature variables dominate** (73% combined contribution)
 - Annual mean temperature alone explains 46% of distribution
 - Precipitation variables contribute minimally (<7% combined)
 - Species is primarily temperature-limited, not water-limited
@@ -229,9 +227,9 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 
 | Rank | Country | Suitable Area (km²) | % of Total Habitat |
 |------|---------|---------------------|-------------------|
-| 🥇 1 | **China** | **813,555** | **50.6%** |
-| 🥈 2 | **Mongolia** | **164,673** | **10.2%** |
-| 🥉 3 | **Kyrgyzstan** | **151,181** | **9.4%** |
+| 1 | **China** | **813,555** | **50.6%** |
+| 2 | **Mongolia** | **164,673** | **10.2%** |
+| 3 | **Kyrgyzstan** | **151,181** | **9.4%** |
 | 4 | Kazakhstan | ~100,000 | ~6.2% |
 | 5 | India | ~80,000 | ~5.0% |
 | 6 | Tajikistan | ~75,000 | ~4.7% |
@@ -261,7 +259,7 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 SDM_Himalayan_Ibex/
@@ -314,7 +312,7 @@ SDM_Himalayan_Ibex/
 
 ---
 
-## 🛠️ Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 
@@ -409,7 +407,7 @@ list.files("outputs/tables")           # View data tables
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 ### Ecological Insights
 
@@ -437,7 +435,7 @@ list.files("outputs/tables")           # View data tables
 
 #### 1. Climate Change Vulnerability
 
-🌡️ **High Risk Assessment:**
+ **High Risk Assessment:**
 - Strong temperature dependency (46% contribution)
 - Narrow thermal tolerance range
 - Upslope range shifts predicted under warming scenarios
@@ -451,7 +449,7 @@ list.files("outputs/tables")           # View data tables
 
 #### 2. Transboundary Conservation
 
-🌍 **International Cooperation Required:**
+ **International Cooperation Required:**
 - Habitat spans 11 countries with varying conservation policies
 - Continuous corridors cross multiple international borders
 - Population connectivity depends on transboundary movements
@@ -469,7 +467,7 @@ list.files("outputs/tables")           # View data tables
 
 #### 3. Protected Area Gap Analysis
 
-📊 **Current Protection Status:**
+ **Current Protection Status:**
 - Estimated 35-40% of suitable habitat within protected areas
 - Significant gaps in Mongolia and Kazakhstan
 - Corridor connectivity often unprotected
@@ -493,7 +491,7 @@ list.files("outputs/tables")           # View data tables
 
 #### 4. Research Priorities
 
-🔬 **Knowledge Gaps to Address:**
+ **Knowledge Gaps to Address:**
 
 1. **Population Genetics:**
    - Genetic connectivity across mountain ranges
@@ -517,7 +515,7 @@ list.files("outputs/tables")           # View data tables
 
 #### 5. Monitoring Recommendations
 
-📈 **Long-term Monitoring Framework:**
+ **Long-term Monitoring Framework:**
 
 **Tier 1: Core Monitoring (Annual)**
 - Population surveys in high-suitability areas
@@ -543,25 +541,25 @@ list.files("outputs/tables")           # View data tables
 
 ### Suitable For:
 
-✅ **Academic Applications:**
+ **Academic Applications:**
 - M.S. Wildlife Conservation program applications
 - Research assistant position portfolios
 - Graduate research proposals
 - Scholarship applications (Fulbright, Chevening, etc.)
 
-✅ **Professional Portfolio:**
+ **Professional Portfolio:**
 - Conservation biology positions
 - Wildlife management agencies
 - Environmental consulting firms
 - GIS and spatial analysis roles
 
-✅ **Educational Use:**
+ **Educational Use:**
 - Species distribution modeling workshops
 - R programming tutorials
 - Conservation biology course projects
 - Ecological modeling demonstrations
 
-✅ **Conference Presentations:**
+ **Conference Presentations:**
 - Wildlife conservation symposia
 - Ecological modeling conferences
 - Student research showcases
@@ -594,31 +592,27 @@ For those interested in similar analyses:
 
 ---
 
-## 🤝 Acknowledgments
+##  Acknowledgments
 
 This project was made possible through:
 
 **Data Providers:**
-- 🌍 **Global Biodiversity Information Facility (GBIF)** - Free and open access to biodiversity data
-- 🌡️ **WorldClim** - High-resolution global climate data (Fick & Hijmans, 2017)
-- 🗺️ **Natural Earth** - Public domain map dataset
+-  **Global Biodiversity Information Facility (GBIF)** - Free and open access to biodiversity data
+-  **WorldClim** - High-resolution global climate data (Fick & Hijmans, 2017)
+-  **Natural Earth** - Public domain map dataset
 
 **Software & Tools:**
-- 📊 **MaxEnt Development Team** - Steven Phillips and colleagues
-- 💻 **R Core Team** - The R Foundation for Statistical Computing
-- 🔧 **Package Developers** - All CRAN package maintainers
+-  **MaxEnt Development Team** - Steven Phillips and colleagues
+-  **R Core Team** - The R Foundation for Statistical Computing
+-  **Package Developers** - All CRAN package maintainers
 
 **Technical Assistance:**
-- 🤖 **Claude AI (Anthropic)** - Script development, methodology guidance, and code optimization
-- 👥 **R Community** - Stack Overflow, R-bloggers, and package documentation
-
-**Academic Support:**
-- 🎓 **Virtual University of Pakistan** - B.S. Zoology program
-- 🌲 **Pakistan Forest Institute** - B.Sc. Forestry program
+-  **Claude AI (Anthropic)** - Script development, methodology guidance, and code optimization
+-  **R Community** - Stack Overflow, R-bloggers, and package documentation
 
 ---
 
-## 📧 Contact & Collaboration
+##  Contact & Collaboration
 
 **Syed Inzimam Ali Shah**
 
@@ -629,51 +623,45 @@ I'm actively seeking opportunities for:
 - Conservation NGO opportunities
 
 **Get in Touch:**
-- 📧 **Email:** inzimamsyed12@gmail.com
-- 💼 **LinkedIn:** [linkedin.com/in/syed-inzimam](https://www.linkedin.com/in/syed-inzimam)
-- 🐙 **GitHub:** [@Syedinzimam](https://github.com/Syedinzimam)
-- 📊 **Portfolio:** [github.com/Syedinzimam](https://github.com/Syedinzimam?tab=repositories)
+-  **Email:** inzimamsyed12@gmail.com
+-  **LinkedIn:** [linkedin.com/in/syed-inzimam](https://www.linkedin.com/in/syed-inzimam)
+-  **GitHub:** [@Syedinzimam](https://github.com/Syedinzimam)
+-  **Portfolio:** [github.com/Syedinzimam](https://github.com/Syedinzimam?tab=repositories)
 
 **Open to:**
 - Research collaborations
 - Conservation project consultations
 - Workshop presentations
-- Code reviews and improvements
 - Data analysis partnerships
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License**.
 
 **What this means:**
-- ✅ Free to use, modify, and distribute
-- ✅ Commercial use permitted
-- ✅ Attribution required (please cite this repository)
-- ⚠️ No warranty provided
+-  Free to use, modify, and distribute
+-  Commercial use permitted
+-  Attribution required (please cite this repository)
+-  No warranty provided
 
 See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-## 🔗 Related Projects
+##  Related Projects
 
 Explore my other wildlife conservation and biodiversity analysis projects:
 
 ### 🌿 [Biodiversity Hotspots Analysis in Pakistan](https://github.com/Syedinzimam/pakistan-biodiversity-analysis)
 21-day comprehensive analysis of Pakistan's biodiversity patterns, threatened species, and conservation priorities.
 
-### 📚 Other Projects
-- R programming tutorials for ecology students
-- GIS mapping for conservation planning
-- Wildlife population analysis workflows
-
 **View all projects:** [github.com/Syedinzimam](https://github.com/Syedinzimam?tab=repositories)
 
 ---
 
-## 📚 References
+##  References
 
 ### Primary Methodology
 
@@ -703,113 +691,44 @@ Explore my other wildlife conservation and biodiversity analysis projects:
 
 ---
 
-## 🆕 Future Improvements & Extensions
-
-### Planned Enhancements
-
-- [ ] **Climate Change Projections**
-  - Incorporate CMIP6 climate scenarios (2050, 2070, 2100)
-  - Model habitat shifts under RCP 4.5 and 8.5
-  - Identify climate refugia
-  - Quantify habitat loss/gain
-
-- [ ] **Habitat Connectivity Analysis**
-  - Implement least-cost path analysis
-  - Calculate habitat connectivity indices
-  - Identify critical corridors and bottlenecks
-  - Assess landscape resistance
-
-- [ ] **Anthropogenic Variables**
-  - Include human footprint index
-  - Add road density and infrastructure
-  - Incorporate livestock density
-  - Model human-wildlife conflict risk
-
-- [ ] **Ensemble Modeling**
-  - Implement multiple algorithms (GLM, RF, BRT, GAM)
-  - Create ensemble predictions
-  - Compare algorithm performance
-  - Assess model uncertainty
-
-- [ ] **Interactive Visualization**
-  - Build Shiny web application
-  - Create interactive habitat maps
-  - Enable scenario exploration
-  - Provide downloadable outputs
-
-- [ ] **Temporal Analysis**
-  - Compare historical vs. current distributions
-  - Analyze range shifts over time
-  - Assess climate velocity impacts
-  - Project future range dynamics
-
-### Technical Improvements
-
-- [ ] Automate data updates from GBIF
-- [ ] Implement parallel processing for faster computation
-- [ ] Add automated report generation
-- [ ] Create Docker container for reproducibility
-- [ ] Develop R package for workflow automation
-
-### Documentation Enhancements
-
-- [ ] Create video tutorial series
-- [ ] Write step-by-step beginner's guide
-- [ ] Add troubleshooting FAQ section
-- [ ] Develop workshop materials
-- [ ] Translate documentation to Urdu
-
----
-
-## 📊 Project Statistics
+##  Project Statistics
 
 **Final Project Metrics:**
 
 | Category | Count |
 |----------|-------|
-| 📂 Data Files | 29 |
-| 📝 R Scripts | 10 |
-| 🗺️ Maps Generated | 20 |
-| 📈 Statistical Tables | 12 |
-| 📄 Total Output Files | 98+ |
-| ⏱️ Total Project Duration | 15 days |
-| 💻 Lines of Code | ~2,500 |
+|  Data Files | 29 |
+|  R Scripts | 10 |
+|  Maps Generated | 20 |
+|  Statistical Tables | 12 |
+|  Total Output Files | 98+ |
+|  Total Project Duration | 15 days |
+|  Lines of Code | ~2,500 |
 
 **Skills Demonstrated:**
-- ✅ R programming and statistical analysis
-- ✅ Spatial data manipulation (raster, vector)
-- ✅ Species distribution modeling (MaxEnt)
-- ✅ Data visualization and cartography
-- ✅ Model validation and interpretation
-- ✅ Conservation biology principles
-- ✅ Scientific writing and documentation
-- ✅ Project management and organization
-- ✅ Open science and reproducible research
+-  R programming and statistical analysis
+-  Spatial data manipulation (raster, vector)
+-  Species distribution modeling (MaxEnt)
+-  Data visualization and cartography
+-  Model validation and interpretation
+-  Conservation biology principles
+-  Scientific writing and documentation
+-  Project management and organization
+-  Open science and reproducible research
 
 ---
 
-## ⚡ Quick Start Guide
+##  Quick Start Guide
 
 **New to this project? Start here:**
 
-1. **📖 Read the Overview** - Understand what this project does
-2. **🗺️ Check the Maps** - View the key visualizations above
-3. **📊 Review Results** - See the model performance metrics
-4. **💻 Install Requirements** - Set up R and required packages
-5. **▶️ Run Day 1-3 Scripts** - Get occurrence and environmental data
-6. **🔬 Run Day 7 Script** - Build the MaxEnt model
-7. **📈 Explore Outputs** - Examine maps and tables
-8. **📧 Contact Me** - Questions? Reach out!
+1. **Read the Overview** - Understand what this project does
+2. **Check the Maps** - View the key visualizations above
+3. **Review Results** - See the model performance metrics
+4. **Install Requirements** - Set up R and required packages
+5. **Run Day 1-3 Scripts** - Get occurrence and environmental data
+6. **Run Day 7 Script** - Build the MaxEnt model
+7. **Explore Outputs** - Examine maps and tables
+8. **Contact Me** - Questions? Reach out!
 
 ---
-
-## 🏆 Project Achievements
-
-**This project represents:**
-
-✨ **15 days of intensive conservation modeling**  
-📊 **Excellent model performance (AUC > 0.96)**  
-🗺️ **1.6 million km² of habitat mapped**  
-🌍 **11 countries analyzed**  
-📈 **20+ publication-quality visualizations**  
-🔬 **Rigorous validation using
