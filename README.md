@@ -589,7 +589,7 @@ This project was made possible through:
 For questions, feedback, or academic discussion related to this project:
 
 **Syed Inzimam Ali Shah**  
-- **Email:** [inzimamsyed12gmail.com]
+- **Email:** [inzimamsyed12@gmail.com](mailto:inzimamsyed12@gmail.com)
 -  **LinkedIn:** [linkedin.com/in/syed-inzimam](https://www.linkedin.com/in/syed-inzimam)
 -  **GitHub:** [@Syedinzimam](https://github.com/Syedinzimam)
 -  **Portfolio:** [github.com/Syedinzimam](https://github.com/Syedinzimam?tab=repositories
