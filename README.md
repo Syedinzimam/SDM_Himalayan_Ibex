@@ -25,20 +25,16 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 
 ---
 
-##  Author Information
+## Author
 
-**Syed Inzimam Ali Shah**
+**Syed Inzimam Ali Shah**  
+B.S. Zoology, Virtual University of Pakistan  
+B.Sc. Forestry, Pakistan Forest Institute  
 
-**Education:**
-- B.S. Zoology - Virtual University of Pakistan
-- B.Sc. Forestry - Pakistan Forest Institute
+Email: [inzimamsyed12@gmail.com](mailto:inzimamsyed12@gmail.com) 
+LinkedIn: [linkedin.com/in/syed-inzimam](https://www.linkedin.com/in/syed-inzimam) 
+GitHub: [@Syedinzimam](https://github.com/Syedinzimam)  
 
-**Contact:**
--  Email: inzimamsyed12@gmail.com
--  LinkedIn: [linkedin.com/in/syed-inzimam](https://www.linkedin.com/in/syed-inzimam)
--  GitHub: [@Syedinzimam](https://github.com/Syedinzimam)
-
-**Project Duration:** 15 days (Completed November 2025)
 
 ---
 
@@ -579,7 +575,6 @@ This project was made possible through:
 -  **Package Developers** - All CRAN package maintainers
 
 **Technical Assistance:**
--  **Claude AI (Anthropic)** - Script development, methodology guidance, and code optimization
 -  **R Community** - Stack Overflow, R-bloggers, and package documentation
 
 ---
