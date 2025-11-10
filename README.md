@@ -12,7 +12,7 @@
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This project implements a comprehensive **Species Distribution Model (SDM)** for the Himalayan Ibex (*Capra sibirica*) across Southeast Asia using **MaxEnt (Maximum Entropy)** modeling. The analysis identifies suitable habitats, evaluates environmental drivers, and provides conservation insights for this high-altitude mountain-dwelling species.
 
