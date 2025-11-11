@@ -31,7 +31,7 @@ This project implements a comprehensive **Species Distribution Model (SDM)** for
 **B.S. Zoology**, Virtual University of Pakistan  
 **B.Sc. Forestry**, Pakistan Forest Institute  
 
-- **Email:** [inzimamsyed12@gmail.com](mailto:inzimamsyed12@gmail.com)  
+- **Email:** inzimamsyed12@gmail.com  
 - **LinkedIn:** https://www.linkedin.com/in/syed-inzimam  
 - **GitHub:** https://github.com/Syedinzimam
 
