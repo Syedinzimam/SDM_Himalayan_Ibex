@@ -3,7 +3,7 @@
 # AUTHOR: Syed Inzimam Ali Shah
 # GITHUB: https://github.com/Syedinzimam
 # DAY: 5 - Variable Selection & Correlation Analysis
-# DATE: November 2025
+# DATE: Oct-Nov 2025
 # ==============================================================================
 
 # Clear environment
@@ -201,10 +201,3 @@ cat("✓ Selected environmental layers saved\n")
 cat("  Layers:", nlyr(bioclim_selected), "\n")
 cat("  Variables:", paste(names(bioclim_selected), collapse = ", "), "\n\n")
 
-cat("=== DAY 5 COMPLETE ===\n")
-cat("Summary:\n")
-cat("  - Started with 19 bioclimatic variables\n")
-cat("  - Reduced to 8 uncorrelated variables\n")
-cat("  - Final dataset:", nrow(final_data), "occurrence points\n")
-cat("  - Ready for MaxEnt modeling\n\n")
-cat("Next: Run Day 6 script for background point generation\n")
