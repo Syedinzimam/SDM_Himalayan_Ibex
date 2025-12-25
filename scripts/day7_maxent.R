@@ -3,7 +3,7 @@
 # AUTHOR: Syed Inzimam Ali Shah
 # GITHUB: https://github.com/Syedinzimam
 # DAY: 7 - MaxEnt Model Building
-# DATE: November 2025
+# DATE: Oct-Nov 2025
 # ==============================================================================
 
 # Clear environment
@@ -234,13 +234,3 @@ legend("topright",
 
 dev.off()
 cat("✓ Habitat suitability map saved and displayed\n\n")
-
-cat("=== DAY 7 COMPLETE ===\n")
-cat("Summary:\n")
-cat("  - MaxEnt model successfully built\n")
-cat("  - Training AUC:", round(eval_train@auc, 3), "\n")
-cat("  - Testing AUC:", round(eval_test@auc, 3), "\n")
-cat("  - Habitat suitability map created\n")
-cat("  - All results saved in outputs folder\n\n")
-cat("Next: Run Day 8 script for advanced model analysis\n")
-
