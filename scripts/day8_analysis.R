@@ -3,7 +3,7 @@
 # AUTHOR: Syed Inzimam Ali Shah
 # GITHUB: https://github.com/Syedinzimam
 # DAY: 8 - Binary Classification & Habitat Analysis
-# DATE: November 2025
+# DATE: Oct-Nov 2025
 # ==============================================================================
 
 # Clear environment
@@ -315,7 +315,3 @@ if (nrow(country_stats) > 0) {
         country_stats$Suitable_Area_km2[i], "km²\n")
   }
 }
-
-cat("\n=== DAY 8 COMPLETE ===\n")
-cat("All analysis files saved in outputs folder\n")
-cat("Next: Run Day 9 script for model validation and diagnostics\n")
