@@ -3,7 +3,7 @@
 # AUTHOR: Syed Inzimam Ali Shah
 # GITHUB: https://github.com/Syedinzimam
 # DAY: 10 - Final Report & Publication Figures
-# DATE: November 2025
+# DATE: Oct-Nov 2025
 # ==============================================================================
 
 # Clear environment
@@ -378,15 +378,4 @@ cat("  Script files:", length(list.files("scripts", pattern = "\\.R$")), "\n")
 cat("  Total maps:", length(list.files("outputs/maps", pattern = "\\.png$")), "\n")
 cat("  Total tables:", length(list.files("outputs/tables", pattern = "\\.csv$")), "\n\n")
 
-cat("=== DAY 10 COMPLETE ===\n")
 cat("=== PROJECT COMPLETED SUCCESSFULLY ===\n\n")
-
-cat("Next Steps:\n")
-cat("1. Review all outputs in the outputs folder\n")
-cat("2. Check PROJECT_SUMMARY.txt for comprehensive report\n")
-cat("3. Use publication-quality figures for presentations/papers\n")
-cat("4. Push project to GitHub repository\n")
-cat("5. Consider writing README.md for documentation\n\n")
-
-cat("Congratulations on completing your SDM project!\n")
-
