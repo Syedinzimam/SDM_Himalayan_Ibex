@@ -3,7 +3,7 @@
 # AUTHOR: Syed Inzimam Ali Shah
 # GITHUB: https://github.com/Syedinzimam
 # DAY: 9 - Model Validation & Diagnostics
-# DATE: November 2025
+# DATE: Oct-Nov 2025
 # ==============================================================================
 
 # Clear environment
@@ -302,12 +302,3 @@ summary_table <- data.frame(
 
 write.csv(summary_table, "outputs/tables/model_diagnostic_summary.csv", 
           row.names = FALSE)
-
-cat("=== DAY 9 COMPLETE ===\n")
-cat("Summary:\n")
-cat("  - Variable importance analyzed\n")
-cat("  - Response curves generated\n")
-cat("  - Spatial cross-validation completed\n")
-cat("  - Model diagnostics saved\n")
-cat("  - Mean CV AUC:", round(mean(cv_results$AUC), 3), "\n\n")
-cat("Next: Run Day 10 script for final visualizations and reporting\n")
