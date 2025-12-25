@@ -7,7 +7,6 @@ PROJECT INFORMATION
 -------------------
 Author: Syed Inzimam Ali Shah
 GitHub: https://github.com/Syedinzimam
-Duration: 15 days (2025-10-30 to 2025-11-08)
 Species: Capra sibirica (Himalayan Ibex)
 Study Area: Southeast Asia (60°E-105°E, 25°N-45°N)
 
