@@ -217,7 +217,6 @@ summary_text <- paste0(
   "-------------------\n",
   "Author: Syed Inzimam Ali Shah\n",
   "GitHub: https://github.com/Syedinzimam\n",
-  "Duration: 15 days (", Sys.Date() - 9, " to ", Sys.Date(), ")\n",
   "Species: Capra sibirica (Himalayan Ibex)\n",
   "Study Area: Southeast Asia (60°E-105°E, 25°N-45°N)\n\n",
   
