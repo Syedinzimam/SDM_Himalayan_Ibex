@@ -3,7 +3,7 @@
 # AUTHOR: Syed Inzimam Ali Shah
 # GITHUB: https://github.com/Syedinzimam
 # DAY: 4 - WorldClim Environmental Data Download
-# DATE: November 2025
+# DATE: Oct-Nov 2025
 # ==============================================================================
 
 # Clear environment
@@ -171,5 +171,3 @@ write.csv(env_summary, "outputs/tables/environmental_summary.csv",
           row.names = FALSE)
 cat("\n✓ Summary saved to: outputs/tables/environmental_summary.csv\n")
 
-cat("\n=== DAY 4 COMPLETE ===\n")
-cat("Next: Run Day 5 script for variable selection & correlation analysis\n")
