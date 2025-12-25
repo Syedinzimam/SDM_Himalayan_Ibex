@@ -3,7 +3,7 @@
 # AUTHOR: Syed Inzimam Ali Shah
 # GITHUB: https://github.com/Syedinzimam
 # DAY: 3 - GBIF Occurrence Data Download
-# DATE: November 2025
+# DATE: Oct-Nov 2025
 # ==============================================================================
 
 # Clear environment
@@ -180,5 +180,3 @@ cat("✓ Map saved to: outputs/maps/occurrence_map_raw.png\n")
 # Display plot
 print(p)
 
-cat("\n=== DAY 3 COMPLETE ===\n")
-cat("Next: Run Day 4 script for environmental data download\n")
