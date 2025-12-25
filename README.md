@@ -611,7 +611,7 @@ See the [LICENSE](LICENSE) file for full details.
 Explore my other wildlife conservation and biodiversity analysis projects:
 
 ###  [Biodiversity Hotspots Analysis in Pakistan](https://github.com/Syedinzimam/pakistan-biodiversity-analysis)
-21-day comprehensive analysis of Pakistan's biodiversity patterns, threatened species, and conservation priorities.
+Comprehensive analysis of Pakistan's biodiversity patterns, threatened species, and conservation priorities.
 
 **View all projects:** [github.com/Syedinzimam](https://github.com/Syedinzimam?tab=repositories)
 
