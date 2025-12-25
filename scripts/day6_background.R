@@ -3,7 +3,7 @@
 # AUTHOR: Syed Inzimam Ali Shah
 # GITHUB: https://github.com/Syedinzimam
 # DAY: 6 - Background Point Generation
-# DATE: November 2025
+# DATE: Oct-Nov 2025
 # ==============================================================================
 
 # Clear environment
@@ -201,10 +201,3 @@ dev.off()
 
 cat("✓ Boxplots saved to: outputs/maps/environmental_comparison_boxplots.png\n\n")
 
-cat("=== DAY 6 COMPLETE ===\n")
-cat("Summary:\n")
-cat("  - Presence points:", nrow(occ_data), "\n")
-cat("  - Background points:", nrow(bg_final), "\n")
-cat("  - Environmental layers: 8 variables\n")
-cat("  - Data ready for MaxEnt modeling\n\n")
-cat("Next: Run Day 7 script to build MaxEnt model\n")
